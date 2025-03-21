@@ -28,17 +28,14 @@ This project implements five core machine learning algorithms (Linear Regression
 2. **Upload Algorithm Files**
    ```python
    # In Colab:
-   from google.colab import files
-   uploaded = files.upload()
-   
    # Upload these files:
-   # - LinearRegression.py
-   # - LogisticRegression.py
-   # - DecisionTree.py
-   # - KNN.py
-   # - BayesianClassifier.py
+   # - linear_regression.py
+   # - logistic_regression.py
+   # - decision_trees.py
+   # - k_nearest_neighbour.py
+   # - bayesian_classifier.py
 
-Run the Notebook
+### Run the Notebook
 
 Execute cells sequentially using:
 
@@ -48,23 +45,16 @@ Runtime > Run All (Colab menu)
 
 Datasets are automatically loaded from URLs:
 
-python
-Copy
-# Example dataset URL (Breast Cancer):
+Example dataset URL (Breast Cancer):
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data"
-View Results
+
+### View Results
 
 Automatic visualizations after each dataset run
 
 Final results compiled in Results.pdf
 
-Dependencies:
+### Dependencies:
 numpy, pandas, matplotlib, seaborn, scikit-learn (metrics only)
-Dataset Sources: All loaded from UCI ML Repository URLs
 
-Support
-For issues/questions:
-✉️ Contact: [Your Email]
-📌 GitHub Issues: [Project Repository Issues Page]
-
-Note: Results may vary slightly (±2%) due to random train-test splits.
+## Note: Results may vary slightly (±2%) due to random train-test splits.
